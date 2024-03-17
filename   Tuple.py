@@ -1,0 +1,9 @@
+immutable_var=1,2,3,'a,','r','c'
+print(immutable_var)
+immutable_var1=([1,2,3],'a','r','c')
+immutable_var1[0][0]=5
+print(immutable_var1)
+mutable_list=[1,2,3,4,'a','b','c','d']
+print(mutable_list)
+mutable_list=[5,6,7,8,'f','g','h','i']
+print(mutable_list)
